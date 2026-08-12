@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imageposition</title>
+    <style>
+        body{
+            height:100vh;
+            position:relative;
+        }
+        .image_container{
+            position:absolute;
+            width:20rem;
+            height:20rem;
+            top:calc(50% - 10rem);
+            right:calc(50% - 10rem);
+        }
+        .cat_image{
+            width:20rem;
+            height:20rem;
+        }
+        .text_container{
+            background-color:rgba(0, 0, 0, 0.250);
+            height:20rem;
+            width:20rem;
+            position:absolute;
+            top:calc(50% - 10rem);
+            right:calc(50% - 10rem);
+        }
+    </style>
+</head>
+<body>
+    <div class="image_container">
+       <img class="cat_image" src="images/cat-1045782_640.jpg" alt="cat_image">
+    </div>
+    <div class="text_container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, in? Placeat laborum rerum quia deleniti facilis! Et rem quisquam dolore omnis, magnam eveniet soluta doloribus aliquid, odit voluptas excepturi vero?
+    </div>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        body{
+            height:100vh;
+            position:relative;
+        }
+        .open-section{
+            position:absolute;
+            height:10rem;
+            width:10rem;
+            top:calc(50% - 5rem);
+            right:calc(50% - 5rem);
+        }
+        .main{
+            background-color:lightblue;
+            position:absolute;
+            height:20rem;
+            width:20rem;
+            top:calc(50% - 10rem);
+            right:calc(50% - 10rem);
+        }
+        .text{
+          margin-top:5rem;
+          margin-left:7rem;
+          margin-bottom:3rem;
+          font-size:18px;
+        }
+        .buttons{
+            margin-left:5rem;
+        }
+        .yes-button{
+            background-color:green;
+            border:none;
+            padding:1rem;
+            margin:10px;
+            border-radius:0.5rem;
+            color:white;
+        }
+        .No-button{
+            background-color:red;
+            border:none;
+            padding:1rem;
+            margin:10px;
+            border-radius:0.5rem;
+            color:white;
+        }
+        .open-button{
+            background-color:blue;
+            border:none;
+            padding:1rem;
+            margin:10px;
+            border-radius:0.5rem;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <div class="open-section">
+        <button class="open-button">Open</button>
+    </div>
+    <div class="main">
+        <p class="text">Are you sure?</p>
+        <div class="buttons">
+            <button class="yes-button">YES</button>
+        <button class="No-button">NO</button>
+        </div>
+        
+    </div>
+</body>
+</html>
