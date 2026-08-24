@@ -25,10 +25,20 @@
     text-decoration:underline;
 }
 .info_container{
-    background-color:yellow;
+    display:flex;
+   
+}
+.html_container,.css_container,.js_container{
+     background-color:yellow;
     height:30rem;
     width:50rem;
     font-size:2rem;
     padding:2rem;
     border:2px solid red;
+}
+.css_container{
+    display:none;
+}
+.js_container{
+    display:none;
 }
